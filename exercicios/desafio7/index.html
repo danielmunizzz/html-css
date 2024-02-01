@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexivel</title>
+    <style>
+        body{
+            background-color: rgb(215, 228, 228);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            imagem flexivel
+
+        </h1>
+        <p>
+            voce esta vendo a imagem completa?
+        </p>
+        <picture>
+            <source media="(max-width:740px)" srcset="imagems/paisagem-p.png" type="image/png">
+            <source media="(max-width:1210px)" srcset="imagems/paisagem-m.png" type="image/png">
+            <img src="imagems/paisagem-g.png" alt="paisagem-grande">
+        </picture>
+    </main>
+            
+</body>
+</html>
